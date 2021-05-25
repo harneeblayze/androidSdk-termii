@@ -1,0 +1,3 @@
+include ':TermiiMessageLibrary'
+include ':app'
+rootProject.name = "TermiiAndroidSdk"
