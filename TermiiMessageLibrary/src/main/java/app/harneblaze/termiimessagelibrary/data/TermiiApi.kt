@@ -15,6 +15,6 @@ interface TermiiApi {
 
 
     @POST("/sms/send")
-    suspend fun sendMessage(@Body request:TermiiDto): TermiiResponse
+    suspend fun sendMessage(@Body request:TermiiDtoRequest): TermiiResponse
 
 }
